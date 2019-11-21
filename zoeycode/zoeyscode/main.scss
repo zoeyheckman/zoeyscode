@@ -1,0 +1,204 @@
+
+/* Scss Document */
+@import url("typograhpy");
+@import url("colors");
+@import url("variables");
+// Third-party
+@import "vendor/normalize.css";
+
+//*Phones Only*//
+@media screen and (max-width: 767px){
+   body{
+       
+    }
+#wrapper{
+    
+}
+ul{
+   
+}
+li{
+   
+}
+li a{
+    
+}
+header{
+    
+}
+h1{
+    color: $primary_font_color; 
+}
+#contentmain{
+    
+}
+h2{
+    
+}
+p{
+    
+}
+#newest stuff{
+    
+}
+h3{
+    
+}
+iframe{
+    
+}
+#newstuff{
+    
+}
+h4{
+    
+}
+#newthings{
+    
+}
+#newtimes{
+    
+}
+h5 {
+    
+}
+#oldtimes{
+    
+}
+h6{
+    
+}
+footer{
+    
+}
+}
+// Medium screens and up
+@media (min-width: 768px) and (max-width:1023px) {
+    body{
+  
+#wrapper{
+    
+}
+ul{
+    
+}
+li{
+   
+}
+li a{
+    
+}
+header{
+    
+}
+h1{
+    
+}
+#contentmain{
+    
+}
+h2{
+    
+}
+p{
+    
+}
+#newest stuff{
+    
+}
+h3{
+    
+}
+iframe{
+    
+}
+#newstuff{
+    
+}
+h4{
+    
+}
+#newthings{
+    
+}
+#newtimes{
+    
+}
+h5 {
+    
+}
+#oldtimes{
+    
+}
+h6{
+    
+}
+footer{
+    
+}
+}
+// Big screens
+@media (min-width: 1024px) {
+  body{
+    }
+#wrapper{
+    
+}
+ul{
+    
+}
+li{
+   
+}
+li a{
+    
+}
+header{
+    
+}
+h1{
+    
+}
+#contentmain{
+    
+}
+h2{
+    
+}
+p{
+    
+}
+#newest stuff{
+    
+}
+h3{
+    
+}
+iframe{
+    
+}
+#newstuff{
+    
+}
+h4{
+    
+}
+#newthings{
+    
+}
+#newtimes{
+    
+}
+h5 {
+    
+}
+#oldtimes{
+    
+}
+h6{
+    
+}
+footer{
+    
+}
+}
