@@ -282,6 +282,7 @@ footer{
     float:center;
     margin:0 auto;
     height:100%;
+    
 }
     nav{
         background-image:linear-gradient(-45deg,black,midnightblue, black);
@@ -353,6 +354,50 @@ p{
 	padding: 0px 20px 0px 20px;
 	border: 1px solid black;
 }   
+#newthings{
+    width: 16%;
+	height: 100%;
+	float: right;
+	margin: 0 auto;
+}
+#newtimes{
+	border: 1px solid black; 
+	background-color: whitesmoke;
+	float: right;
+    width:100%;
+    height:50%;
+    margin:0 auto;
+}
+h5 {
+    height: 100%;
+    text-align: center;
+    color:whitesmoke;
+    font-family: 'Cinzel Decorative';
+    font-size:25px;
+    background-image:linear-gradient(-90deg,black, midnightblue);
+    margin:0 auto;
+    float: right;
+}
+#oldtimes{
+    border: 1px solid black; 
+	background-color: whitesmoke;
+	float: right;
+    height: 100%;
+    width:100%;
+    margin:0 auto;
+}
+h6{
+    height: 50%;
+    width:100%;
+    text-align:center;
+    color:whitesmoke;
+    font-family: 'Cinzel Decorative';
+    font-size: 25px;
+    background-image:linear-gradient(-90deg,black, midnightblue);
+    float:center;
+    margin: 0 auto;
+    
+}
 #neweststuff{
     width: 64%;
 	height: 100%;
@@ -407,50 +452,7 @@ h4{
     margin:0 auto;
     
 }
-#newthings{
-   width: 17%;
-	height: 100%;
-	float: right;
-	margin: 0px;
-}
-#newtimes{
-	border: 1px solid black; 
-	background-color: whitesmoke;
-	float: right;
-    width:100%;
-    height:50%;
-    margin:0 auto;
-}
-h5 {
-    height: 100%;
-    text-align:center;
-    color:whitesmoke;
-    font-family: 'Cinzel Decorative';
-    font-size:25px;
-    background-image:linear-gradient(-90deg,black, midnightblue);
-    margin:0 auto;
-    float:center;
-}
-#oldtimes{
-    border: 1px solid black; 
-	background-color: whitesmoke;
-	float: center;
-    height: 50%;
-    width:100%;
-    margin:0 auto;
-}
-h6{
-    height: 50%;
-    width:100%;
-    text-align:center;
-    color:whitesmoke;
-    font-family: 'Cinzel Decorative';
-    font-size: 25px;
-    background-image:linear-gradient(-90deg,black, midnightblue);
-    float:center;
-    margin: 0 auto;
-    
-}
+
 footer{
     background-color:black;
     width: 100%;
