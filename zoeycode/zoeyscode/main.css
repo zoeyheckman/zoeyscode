@@ -15,17 +15,26 @@
        position: center;
     }
 #wrapper{
-    width: 80%;
+    width: 90%;
     background-color: silver;
 }
 ul{
-   
+   list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
 }
 li{
-   
+   float:left;
 }
 li a{
-    
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 34px;
+    text-decoration: none;
+	border-right: 1px solid dimgray;
 }
 header{
     
@@ -77,209 +86,7 @@ footer{
 }
 }
 /* Medium screens and up*/
-@media (min-width: 768px) and (max-width:1023px) {
-    body{
-       background-image: radial-gradient(midnightblue, black); 
-       position: center;
-       width: 100%;
-       height:100%;
-       float: center;
-    }
-#wrapper{
-    width:90%;
-    background-color: silver;
-    float:center;
-    margin:0 auto;
-    height:100%;
-}
-    nav{
-        background-image:linear-gradient(-45deg,black,midnightblue, black);
-        height: 380px;
-        width:120px;
-        margin: 0 auto;
-        float:left;
-    }
-ul{
-        list-style-type: none;
-        display:flex;
-        flex-flow:column nowrap;
-        align-content:center;
-        justify-content:space-around;
-        width: 100%;
-	    height: 50%;
-        margin:0 auto;
-        padding: 10px;
-}
-li a{
-    color: whitesmoke;
-    float: center;
-    text-align:center;
-   
-}
-header{
-    padding:10px 10px;
-    margin: 0 auto; 
-    height:50%;
-    width:100%;
-    background-image:url("Assets/space-covered under CC BY NC-2.0.jpg");
-    border:2px black solid;
-}
-h1{
-    
-    font-family: "New Rocker";
-    color: whitesmoke;
-    font-size:75px;
-    text-align: center;
-    margin:0 auto;
-}
-#contentmain{
-    float:center;
-    width:65%;
-    height:50%;
-    margin:0 auto;
-    border:1px,black,solid;
-}
-#shoutouts{
-    float:center;
-    width:100%;
-    height:50%;
-    margin:0 auto;
-    border:1px,black,solid;
-}
-    #merch{
-   float:center;
-    width:100%;
-    height:50%;
-    margin:0 auto;
-    border:1px,black,solid;
-    }
-h2{
-    height: 100%;
-    text-align:center;
-    color:whitesmoke;
-    font-family: 'Cinzel Decorative';
-    font-size:25px;
-    background-image:radial-gradient(indigo,midnightblue,black);
-    margin: 0 auto;
-}   
-p{
-    font-size: 14px;
-	text-align: center;
-	margin: 10px 10px;
-	padding: 0px 20px 0px 20px;
-	border: 1px solid black;
-}   
-
-#neweststuff{
-    width: 65%;
-	height: 100%;
-	background-color: whitesmoke;
-	margin: 0 auto;
-	border: 1px black solid;
-    float:center;
-} 
-#newvids{
-    width: 50%;
-    height: 100%;
-    float:left;
-    border:1px solid black;
-    margin:0 auto;
-    background-color:silver;
-    
-    }
-h3{
-    height: 20%;
-    text-align:center;
-    color:whitesmoke;
-    font-family: 'Cinzel Decorative';
-    font-size:25px;
-    background-image:radial-gradient(indigo,midnightblue,black);
-    float:center;
-    margin: 0 auto;
-}
-iframe{
-    width: 240px;
-	height: 160px;
-	margin: 10px;
-	float: center;
-}
-#newstuff{
-    width: 25%;
-	height: 50%;
-	border: 1px solid black; 
-	margin: 0 auto; 
-	background-color: silver;
-    float:center;
-	
-}
-h4{
-    height: 20%;
-    width: 100%;
-    text-align:center;
-    color:whitesmoke;
-    font-family: 'Cinzel Decorative';
-    font-size:25px;
-    background-image:linear-gradient(45deg,midnightblue, black);
-    float:center;
-    margin:0 auto;
-}
-img{
-    width:100%;
-    height: auto;
-    }
-#newthings{
-   width: 17%;
-	height: 100%;
-	float: right;
-	margin: 0px;
-}
-#newtimes{
-	border: 1px solid black; 
-	background-color: whitesmoke;
-	float: right;
-    width:100%;
-    height:50%;
-    margin:0 auto;
-}
-h5 {
-    height: 100%;
-    text-align:center;
-    color:whitesmoke;
-    font-family: 'Cinzel Decorative';
-    font-size:25px;
-    background-image:linear-gradient(-90deg,black, midnightblue);
-    margin:0 auto;
-    float:center;
-}
-#oldtimes{
-    border: 1px solid black; 
-	background-color: whitesmoke;
-	float: right;
-    height: 50%;
-    width:100%;
-    margin:0 auto;
-}
-h6{
-    height: 100%;
-    text-align:center;
-    color:whitesmoke;
-    font-family: 'Cinzel Decorative';
-    font-size: 25px;
-    background-image:linear-gradient(-90deg,black, midnightblue);
-    float:center;
-    margin: 0 auto;
-    
-}
-footer{
-    background-color:black;
-    width: 100%;
-    height: 20%;
-    color:whitesmoke;
-    clear: both;
-}
-}
-/* Big screens*/
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   body{
        background-image: radial-gradient(midnightblue, black); 
        position: center;
@@ -289,19 +96,19 @@ footer{
     }
 #wrapper{
     width:90%;
-    background-color: silver;
+    background-color:black;
     float:center;
     margin:0 auto;
     height:100%;
-    
-}
+} 
     nav{
-        background-image:linear-gradient(-45deg,black,midnightblue, black);
-        height: 380px;
-        width:120px;
+        display:inline-block;
+        background-image:linear-gradient(-45deg,black, midnightblue, black);
+        height:373px;
+        width:15%;
         margin: 0 auto;
         float:left;
-    }
+}
 ul{
         list-style-type: none;
         display:flex;
@@ -314,10 +121,53 @@ ul{
         padding: 10px;
 }
 li a{
-    color: whitesmoke;
-    float: center;
-    text-align:center;
-   
+    width: 100%;
+		height: 100%;
+		text-align: center;
+		padding: 0px;
+		margin: 0 auto;
+		float: right;
+		font-size:18px;
+		color: whitesmoke;
+    font-family:'Cinzel Decorative';
+}
+a:hover{
+     -webkit-animation: swing 1s ease;
+        animation: swing 1s ease;
+        -webkit-animation-iteration-count: 1;
+        animation-iteration-count: 1;   
+    }
+@keyframes swing {
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
 }
 header{
     padding:10px 10px;
@@ -330,20 +180,59 @@ header{
 h1{
     
     font-family: "New Rocker";
-    color: whitesmoke;
     font-size:75px;
     text-align: center;
     margin:0 auto;
-}
+    text-shadow: 2px 2px grey;
+     -webkit-animation:colorchange 20s infinite alternate;
+    }
+@-webkit-keyframes colorchange 
+    {
+      0% {
+    color: blue;
+      }
+      10% {
+    color: violet;
+      }
+      20% {
+    color: green;
+      }
+      30% {
+    color: yellow;
+      }
+      40% {
+    color: orange;
+      }
+      50% {
+    color: hotpink;
+      }
+      60% {
+    color: red;
+      }
+      70% {
+    color: white;
+      }
+      80% {
+    color: slategrey;
+      }
+      90% {
+    color: midnightblue;
+      }
+      100% {
+    color: grey;
+      }
+    }
 #contentmain{
+    display:inline-block;
     float:center;
-    width:65%;
-    height:50%;
+    width:70%;
+    height:80%;
     margin:0 auto;
     border:1px,black,solid;
 }
 #shoutouts{
-    float:center;
+    display:inline-block;
+    float:left;
     width:100%;
     height:50%;
     margin:0 auto;
@@ -352,28 +241,32 @@ h1{
 h2{
     height: 100%;
     text-align:center;
-    color:whitesmoke;
     font-family: 'Cinzel Decorative';
     font-size:25px;
     background-image:radial-gradient(indigo,midnightblue,black);
     margin: 0 auto;
+    color:whitesmoke;
 }
 p{
+    font-family: 'New Rocker';
     font-size: 14px;
 	text-align: center;
-	margin: 10px 10px;
+	margin: 0 auto;
 	padding: 0px 20px 0px 20px;
 	border: 1px solid black;
+    background-color:silver;
 }   
 #newthings{
-    width: 16%;
+    display:inline-block;
+    width: 15%;
 	height: 100%;
 	float: right;
-	margin: 0 auto;
+    margin:0 auto;
+    background-image:linear-gradient(-45deg, midnightblue,black);
 }
 #newtimes{
 	border: 1px solid black; 
-	background-color: whitesmoke;
+	background-image:linear-gradient(-45deg,black,midnightblue);
 	float: right;
     width:100%;
     height:50%;
@@ -385,15 +278,15 @@ h5 {
     color:whitesmoke;
     font-family: 'Cinzel Decorative';
     font-size:25px;
-    background-image:linear-gradient(-90deg,black, midnightblue);
+    background-image:linear-gradient(-45deg,black, midnightblue);
     margin:0 auto;
     float: right;
 }
 #oldtimes{
     border: 1px solid black; 
-	background-color: whitesmoke;
+	background-image:linear-gradient(135deg,black,midnightblue,black);
 	float: right;
-    height: 100%;
+    height: 50%;
     width:100%;
     margin:0 auto;
 }
@@ -404,27 +297,17 @@ h6{
     color:whitesmoke;
     font-family: 'Cinzel Decorative';
     font-size: 25px;
-    background-image:linear-gradient(-90deg,black, midnightblue);
+    background-image:linear-gradient(135deg,black,midnightblue,black);
     float:center;
     margin: 0 auto;
-    
-}
-#neweststuff{
-    width: 64%;
-	height: 100%;
-	background-color: whitesmoke;
-	margin: 0 auto;
-	border: 1px black solid;
-    float:center;
 } 
 #newvids{
     width: 50%;
-    height: 100%;
+    height: 50%;
     float:left;
     border:1px solid black;
     margin:0 auto;
     background-color:silver;
-    
     }
 h3{
     height: 20%;
@@ -439,18 +322,21 @@ h3{
 iframe{
     width: 240px;
 	height: 160px;
-	margin: 10px;
+	margin: 10px 40px;
 	float: center;
 }
 #newstuff{
-    width: 100%;
-	height: 100%;
+    width: 50%;
+	height: 50%;
 	border: 1px solid black; 
 	margin: 0 auto; 
-	background-color: whitesmoke;
-    float:center;
-	
+	background-color: silver;
+    float:right;
 }
+img{
+    float:center;
+    margin:10px 90px;
+    }
 h4{
     height: 20%;
     width: 100%;
@@ -459,16 +345,16 @@ h4{
     font-family: 'Cinzel Decorative';
     font-size:25px;
     background-image:radial-gradient( midnightblue, black);
-    float:center;
+    float:right;
     margin:0 auto;
-    
 }
-
 footer{
     background-color:black;
     width: 100%;
-    height: 20%;
+    height: 30%;
+    font-family: 'Cinzel Decorative';
     color:whitesmoke;
     clear: both;
+    text-align: center;
 }
 }
